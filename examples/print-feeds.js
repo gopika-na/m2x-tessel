@@ -6,7 +6,7 @@
 // prints the details for each of those feeds
 //
 
-var M2X = require("m2x");
+var M2X = require("m2x-tessel");
 var API_KEY = "43a42001fa169295a0c272c9e358e0b4";
 
 function M2XFeeds() {

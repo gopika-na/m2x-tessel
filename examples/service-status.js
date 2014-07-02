@@ -5,7 +5,7 @@
 // M2X service status and prints it to the console
 //
 
-var M2X = require("m2x");
+var M2X = require("m2x-tessel");
 var API_KEY = "<YOUR-API-KEY>";
 
 function M2XStatus() {

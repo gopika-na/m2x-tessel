@@ -5,7 +5,7 @@
 // for instructions
 //
 
-var M2X = require("m2x");
+var M2X = require("m2x-tessel");
 var exec = require("child_process").exec;
 
 var API_KEY = "<YOUR-FEED-API-KEY>";

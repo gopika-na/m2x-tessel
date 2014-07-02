@@ -32,7 +32,7 @@ An M2X object provides methods for communicating with the remote API. Methods ar
 The following is a short example on how to instantiate an M2X object:
 
 ```javascript
-var M2X = require("m2x");
+var M2X = require("m2x-tessel");
 
 var m2x = new M2X("<API-KEY>");
 ```
@@ -412,7 +412,7 @@ In order to be able to use this client you will need an AT&T M2X API key and a D
 // for instructions
 //
 
-var M2X = require("m2x");
+var M2X = require("m2x-tessel");
 var exec = require("child_process").exec;
 
 var API_KEY = "<YOUR-FEED-API-KEY>";
