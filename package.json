@@ -18,6 +18,7 @@
   "dependencies": {
   },
   "author": "Gabriel García",
+  "contributors": ["Josh Hollenbeck"],
   "license": "MIT",
   "readmeFilename": "README.md"
 }
