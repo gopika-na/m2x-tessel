@@ -1,8 +1,7 @@
-# Node.js M2X API Client #
+# Tessel M2X API Client #
 
 The AT&T M2X API provides all the needed operations to connect your device to AT&T's [M2X](http://m2x.att.com) service.
-This client provides an easy to use interface for [node.js](http://nodejs.org/).
-
+This client provides an easy to use interface for the [node.js](http://nodejs.org/) based [Tessel](https://tessel.io) microcontroller devices.
 
 ## Getting Started ##
 
@@ -16,9 +15,9 @@ Please consult the [M2X glossary](https://m2x.att.com/developer/documentation/gl
 
 ## Installation
 
-m2x-nodejs is available as an npm package. Install the latest version with:
+m2x-tessel is available as an npm package. Install the latest version with:
 
-    npm install m2x
+    npm install m2x-tessel
 
 
 ## Usage ##
@@ -408,7 +407,7 @@ In order to be able to use this client you will need an AT&T M2X API key and a D
 #!/usr/bin/env node
 
 //
-// See https://github.com/attm2x/m2x-nodejs/blob/master/README.md#example-usage
+// See https://github.com/attm2x/m2x-tessel/blob/master/README.md#example-usage
 // for instructions
 //
 

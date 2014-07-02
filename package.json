@@ -1,24 +1,23 @@
 {
-  "name": "m2x",
+  "name": "m2x-tessel",
   "version": "0.4.1",
-  "description": "AT&T M2X API client for node.js",
+  "description": "AT&T M2X API client for node.js based Tessel",
   "main": "./lib/m2x",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/attm2x/m2x-nodejs.git"
+    "url": "git://github.com/attm2x/m2x-tessel.git"
   },
   "keywords": [
     "at&t",
-    "m2x"
+    "m2x",
+    "tessel"
   ],
   "dependencies": {
-      "request": ">=2.27.0"
   },
   "author": "Gabriel García",
   "license": "MIT",
-  "readmeFilename": "README.md",
-  "gitHead": "126f4496a787af8418e31f1cb11e8da0d4291210"
+  "readmeFilename": "README.md"
 }
