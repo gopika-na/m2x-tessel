@@ -19,6 +19,7 @@ m2x-tessel is available as an npm package. Install the latest version with:
 
     npm install m2x-tessel
 
+[![NPM](https://nodei.co/npm/m2x-tessel.png)](https://nodei.co/npm/m2x-tessel/)
 
 ## Usage ##
 
