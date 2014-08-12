@@ -329,13 +329,11 @@ This is the full list of methods the `feeds` object provides:
   {
       "stream-name-1": [
           { "at": <Time in ISO8601>, "value": x },
-          { "value": y }
+          { "at": <Time in ISO8601>, "value": y }
       ],
       "stream-name-2": [ ... ]
   }
   ```
-
-  If the `at` attribute is missing then the current time of the server, in UTC, will be used.
 
 * m2x.feeds.triggers(id, callback)
 
