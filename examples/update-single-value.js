@@ -2,7 +2,7 @@
 
 /*
  *
- * This example demonstrates how to update single values to multiple streams
+ * This example demonstrates how to update single values to multiple streams to target device
  *
  *
  * API Documentation:
