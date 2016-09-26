@@ -29,7 +29,7 @@ m2xClient.devices.updateStream(config.device, stream, stream_params, function(re
         console.log("I'm updating stream values! (Press CTRL + C to stop)");
 
         // Update the latest stream value to our new value
-        m2xClient.devices.updateStreamValue(config.device, stream, {"value": new_value}, function(result) {
+        m2xClient.devices.setStreamValue(config.device, stream, {"value": new_value}, function(result) {
             if (result.isError()) {
                 console.log(result.error());
             }
