@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 //
 // This is a simple application that requests the list
 // of available devices for the provided API Key and then
@@ -7,7 +5,7 @@
 //
 
 var config = require("./config");
-var M2X = require("m2x-tessel");
+var M2X = require("../lib/m2x");
 var m2xClient = new M2X(config.api_key);
 
 m2xClient.devices.list(function(response) {

@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 /*
  *
  * This example demonstrates how to update single values to multiple streams to target device
@@ -10,7 +8,7 @@
  */
 
 var config = require("./config");
-var M2X = require("m2x-tessel");
+var M2X = require("../lib/m2x");
 var m2xClient = new M2X(config.api_key);
 
 // Time format example
@@ -26,10 +24,10 @@ var params = {
 
 m2xClient.devices.postSingle(config.device, params, function (response) {
     if (response.isSuccess()) {
-        console.log("Status Code".concat(response.status));
+        console.log("Status Code ".concat(response.status));
         console.log("Streams are updated successfully.");
     } else {
-        console.log("Error Status Code".concat(response.status));
+        console.log("Error Status Code ".concat(response.status));
         console.log(JSON.parse(response.raw).errors);
     }
 });

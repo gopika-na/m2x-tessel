@@ -1,12 +1,10 @@
-#!/usr/bin/env node
-
 //
 // See https://github.com/attm2x/m2x-nodejs/blob/master/README.md#example-usage
 // for instructions
 //
 
 var config = require("./config");
-var M2X = require("m2x-tessel");
+var M2X = require("../lib/m2x");
 var m2xClient = new M2X(config.api_key);
 var streams = {
     "temperature": {

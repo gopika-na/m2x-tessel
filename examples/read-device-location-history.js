@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 /*
  *
  * This example demonstrates how to read location history for supplied device
@@ -9,7 +7,7 @@
  */
 
 var config = require("./config");
-var M2X = require("m2x-tessel");
+var M2X = require("../lib/m2x");
 var m2x_client = new M2X(config.api_key);
 
 m2x_client.devices.locationHistory(config.device, function (response) {
