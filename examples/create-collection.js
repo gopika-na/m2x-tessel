@@ -7,7 +7,7 @@
  */
 
 var config = require("./config");
-var M2X = require("m2x-tessel");
+var M2X = require("../lib/m2x");
 var m2x_client = new M2X(config.api_key);
 
 var params = {
