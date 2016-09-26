@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 //
 // This is a simple application that requests the list
 // of available devices for the provided API Key and then

@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 /*
  *
  * This example demonstrates how to update collection metadata

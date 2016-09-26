@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 //
 // See https://github.com/attm2x/m2x-nodejs/blob/master/README.md#example-usage
 // for instructions

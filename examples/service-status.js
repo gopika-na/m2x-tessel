@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 //
 // This is a simple application that requests the current
 // M2X service status and prints it to the console
