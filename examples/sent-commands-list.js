@@ -1,6 +1,6 @@
 /*
  *
- * This example demonstrates Retrieve the list of send Commands by the authenticated API key
+ * This example demonstrates Retrieve the list of sent Commands by the authenticated API key
  *
  * API Documentation:
  *
