@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 /*
  *
  * This example demonstrates how to export all data streams for existing device
