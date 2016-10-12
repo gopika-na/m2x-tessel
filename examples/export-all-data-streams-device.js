@@ -23,17 +23,17 @@ m2x_client.devices.exportAllDataStreamsByDeviceId(deviceId, function (response) 
 
         console.log("Status Code: ".concat(response.status));
         locationURL = response.headers.location;
-        console.log("\nJob Location URL is:" + locationURL);
+        console.log("\nJob Location URL is: " + locationURL);
         locationPathURL = locationURL.substring(locationURL.indexOf("/jobs"), locationURL.length);
-        console.log("\nJob LocationPath URL is:" + locationPathURL);
-        console.log("\nExecuting Job URL...Please wait...");
+        console.log("\nJob LocationPath URL is: " + locationPathURL);
+        console.log("\nExecuting Job URL... Please wait...");
 
         setTimeout(function () {
             m2x_client.devices.getValuesFromAllDataStreams(locationPathURL, function (response) {
                 if (response.isSuccess()) {
                     console.log("\nJob Location Status Code: ".concat(response.status));
                     if (JSON.parse(response.raw).result) {
-                        console.log("\nDataStreams CSV URL for Device:" + JSON.parse(response.raw).result.url);
+                        console.log("\nDataStreams CSV URL for Device: " + JSON.parse(response.raw).result.url);
                     }
                 } else {
                     console.log("Error Job Location Status Code: ".concat(response.status));
