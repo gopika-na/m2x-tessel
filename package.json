@@ -1,6 +1,6 @@
 {
   "name": "m2x-tessel",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "description": "AT&T M2X API client for node.js based Tessel",
   "main": "./lib/m2x",
   "scripts": {
