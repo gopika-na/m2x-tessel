@@ -17,7 +17,6 @@ var params = {
     "<YOUR-UPDATED-METADATA-KEY>" : "<YOUR-UPDATED-METADATA-VALUE>",
     "<YOUR-UPDATED-METADATA-KEY>" : "<YOUR-UPDATED-METADATA-VALUE>",
     "<YOUR-UPDATED-METADATA-KEY>" : "<YOUR-UPDATED-METADATA-VALUE>"
-
 };
 
 console.log("Updating MetaData for Device.....");
