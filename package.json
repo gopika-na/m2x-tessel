@@ -1,6 +1,6 @@
 {
   "name": "m2x-tessel",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "AT&T M2X API client for node.js based Tessel",
   "main": "./lib/m2x",
   "scripts": {
@@ -19,7 +19,9 @@
     "request": ">=2.27.0"
   },
   "author": "Gabriel García",
-  "contributors": ["Josh Hollenbeck"],
+  "contributors": [
+    "Josh Hollenbeck"
+  ],
   "license": "MIT",
   "homepage": "https://github.com/attm2x/m2x-tessel",
   "bugs": {
