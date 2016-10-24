@@ -38,11 +38,19 @@ var M2X = require("m2x-tessel");
 var m2x = new M2X("<API-KEY>");
 ```
 
-The M2X object also provides a simple method for checking the API status (so if you are having connectivity issues, you can check whether the API is currently down):
+The M2X object provides a simple method for checking the API status (so if you are having connectivity issues, you can check whether the API is currently down):
 
 ```javascript
 m2x.status(function(status) {
     console.log(status);
+});
+```
+
+The M2X object also provides a simple method for retrieving the server time:
+
+```javascript
+m2x.time(function(time) {
+    console.log(time);
 });
 ```
 
