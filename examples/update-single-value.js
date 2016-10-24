@@ -22,13 +22,13 @@ var params = {
     }
 }
 
-m2xClient.devices.postSingle(config.device, params, function (response) {
+m2xClient.devices.postDeviceUpdate(config.device, params, function (response) {
     if (response.isSuccess()) {
         console.log("Status Code ".concat(response.status));
         console.log("Streams are updated successfully.");
     } else {
-        console.log("Error Status Code ".concat(response.status));
-        console.log(JSON.parse(response.raw).errors);
+        console.log("Status Code ".concat(response.status));
+        console.log(JSON.stringify(response.error()));
     }
 });
 
